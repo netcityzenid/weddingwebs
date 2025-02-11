@@ -1,0 +1,53 @@
+{
+  "name": "weddingweb",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fancyapps/fancybox": "^3.5.7",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "cors": "^2.8.5",
+    "date-fns": "^4.0.0-beta.1",
+    "framer-motion": "^11.5.4",
+    "gsap": "^3.12.5",
+    "jquery": "^3.7.1",
+    "leaflet": "^1.9.4",
+    "lightgallery": "^2.7.2",
+    "lucide-react": "^0.439.0",
+    "mongoose": "^8.6.1",
+    "next": "14.2.8",
+    "react": "^18",
+    "react-card-swiper": "^1.1.25",
+    "react-dom": "^18",
+    "react-image-lightbox": "^5.1.4",
+    "react-intersection-observer": "^9.13.1",
+    "react-leaflet": "^4.2.1",
+    "react-photo-gallery": "^8.0.0",
+    "react-spring": "^9.7.4",
+    "react-tinder-card": "^1.6.4",
+    "react-tsparticles": "^2.12.2",
+    "react-use-gesture": "^9.1.3",
+    "swr": "^2.2.5",
+    "tailwind-merge": "^2.5.2",
+    "tailwindcss-animate": "^1.0.7",
+    "tsparticles": "^3.5.0"
+  },
+  "devDependencies": {
+    "@types/leaflet": "^1.9.12",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.8",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
