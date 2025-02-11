@@ -33,7 +33,7 @@ interface AnimatedComponentProps {
   };
   animate?: {
     opacity?: number; // Opsi untuk opacity
-    y?: number; // Opsi untuk y
+    y?: number; // Opsi untuk y 
     x?: number; // Opsi untuk y
     scale?: number;
   };
