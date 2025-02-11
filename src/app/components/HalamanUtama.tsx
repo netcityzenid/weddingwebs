@@ -49,7 +49,7 @@ const AnimatedComponent: React.FC<AnimatedComponentProps> = ({ children, initial
 
   // Start animation when the element enters the center of the screen
   if (inView && !hasAnimated) {
-    setHasAnimated(true);
+    setHasAnimated(true); 
   }
 
   return (
