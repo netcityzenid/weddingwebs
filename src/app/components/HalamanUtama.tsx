@@ -37,7 +37,7 @@ interface AnimatedComponentProps {
     x?: number; // Opsi untuk y
     scale?: number;
   };
-  transition?: { duration: number }; // Tipe untuk transition
+  transition?: { duration: number }; // Tipe untuk transition 
 }
 
 const AnimatedComponent: React.FC<AnimatedComponentProps> = ({ children, initial = { opacity: 0, y: 100 }, animate = { opacity: 1, y: 0 }, transition = { duration: 0.5 } }) => {
