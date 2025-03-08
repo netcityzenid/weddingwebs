@@ -2,7 +2,7 @@
 import React, { ReactNode, useState } from "react";
 import Image from "next/image";
 import CountdownTimer from "./Countdown";
-import afni from "../../../public/images/afni.jpg";
+import afni from "../../../public/images";
 import galang from "../../../public/images/galang.jpg";
 import hand from "../../../public/images/hand.png";
 import bl from "../../../public/images/BL.png";
