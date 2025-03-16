@@ -324,7 +324,7 @@ const HalamanUtama: React.FC<HalamanUtamaProps> = ({ className }) => {
                     <div className="">Pukul 08.00 WIB</div>
                     <div className="font-bold mt-5">Gedung Serbaguna Komplek PP. PUPR Pengairan Bekasi</div>
                     <div className="mt-5">
-                      <a className="pl-2 pr-4 py-2 text-sm shadow-lg flex  border-2 border-[#d6b064] items-center w-max mx-auto rounded-full hover:scale-110 transition-all" href="https://maps.app.goo.gl/FJ6GJ2NZstnXrWrn6" target="_blank">
+                      <a className="pl-2 pr-4 py-2 text-sm shadow-lg flex  border-2 border-[#d6b064] items-center w-max mx-auto rounded-full hover:scale-110 transition-all" href="https://maps.app.goo.gl/rzdAzSm4iPgDdwKy7?g_st=iw" target="_blank">
                         <span>
                           <svg className="h-4 w-auto mr-2" width="64px" height="64px" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
@@ -360,7 +360,7 @@ const HalamanUtama: React.FC<HalamanUtamaProps> = ({ className }) => {
                     </div>
                     <div className="font-bold mt-5">Gedung Serbaguna Komplek PP. PUPR Pengairan Bekasi</div>
                     <div className="mt-5">
-                      <a className="pl-2 pr-4 py-2 text-sm shadow-lg flex  border-2 border-[#d6b064] items-center w-max mx-auto rounded-full hover:scale-110 transition-all" href="https://maps.app.goo.gl/FJ6GJ2NZstnXrWrn6" target="_blank">
+                      <a className="pl-2 pr-4 py-2 text-sm shadow-lg flex  border-2 border-[#d6b064] items-center w-max mx-auto rounded-full hover:scale-110 transition-all" href="https://maps.app.goo.gl/rzdAzSm4iPgDdwKy7?g_st=iw" target="_blank">
                         <span>
                           <svg className="h-4 w-auto mr-2" width="64px" height="64px" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
