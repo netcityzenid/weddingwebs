@@ -89,7 +89,7 @@ const HalamanUtama: React.FC<HalamanUtamaProps> = ({ className }) => {
 
   const copyToClipboards = () => {
     // The text you want to copy
-    const textToCopy = "123123123";
+    const textToCopy = "5681340280";
 
     // Use the Clipboard API to write the text
     navigator.clipboard.writeText(textToCopy).then(
@@ -516,7 +516,7 @@ const HalamanUtama: React.FC<HalamanUtamaProps> = ({ className }) => {
                           </div>
                           <div className="flex items-start">
                             <button onClick={copyToClipboards} className="font-mono relative text-xl mb-2 mr-2">
-                              <span>1 2 3 1 2 3 1 2 3</span>
+                              <span>5 6 8 1 3 4 0 2 8 0</span>
                               <span className="font-mono mb-2 absolute right-0 -top-5 text-xs opacity-60 ">tap to copy</span>
                             </button>
                           </div>
