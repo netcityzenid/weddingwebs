@@ -18,7 +18,7 @@ export const metadata = {
     type: "article",
     title: "Afni & Galang Wedding",
     description: "Saturday, April 19th 2025",
-    url: "https://weddingweb-beta.vercel.app/",
+    url: "https://afnigalang.my.id/",
     image: {
       url: "https://weddingweb-beta.vercel.app/images/cover.jpeg",
       secure_url: "https://weddingweb-beta.vercel.app/images/cover.jpeg",
