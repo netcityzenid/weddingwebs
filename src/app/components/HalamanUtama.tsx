@@ -2,7 +2,7 @@
 import React, { ReactNode, useState } from "react";
 import Image from "next/image";
 import CountdownTimer from "./Countdown";
-import afni from "../../../public/images";
+import afni from "../../../public/images/afni.jpg";
 import galang from "../../../public/images/galang.jpg";
 import hand from "../../../public/images/hand.png";
 import bl from "../../../public/images/BL.png";
@@ -65,8 +65,8 @@ const HalamanUtama: React.FC<HalamanUtamaProps> = ({ className }) => {
   const [isOpen1, setIsOpen1] = useState(false);
   const mempelaiPria = "Galang Al Rizky";
   const mempelaiWanita = "Nurafni Putri Azzahra";
-  const mempelaiWanitaDari = "Putri pertama Ibu Fitri & Bapak Ismail";
-  const mempelaiPriaDari = "Putra ketiga Bapak Harun & Ibu Rahma";
+  const mempelaiWanitaDari = "Putri pertama Ibu Nur Fitriani & Bapak Ismail Achmad";
+  const mempelaiPriaDari = "Putra ketiga Bapak Abdul Harun & Ibu Rahma Handayani";
   const IGmempelaiWanita = "nurafniazahraa";
   const IGmempelaiPria = "galangalrizky";
 
@@ -131,9 +131,9 @@ const HalamanUtama: React.FC<HalamanUtamaProps> = ({ className }) => {
           <div id="section-1" className="w-full h-full bg-pattern bg-[#e4e4e4] relative ">
             <div className=" relative overflow-hidden">
               <motion.div initial={{ y: -1000 }} animate={{ y: 0 }} transition={{ duration: 2, delay: 0 }} className="flex">
-                <Image src={im1} alt="couple" className=" "></Image>
+                <Image src={im1} alt="couple" className=" -mt-16"></Image>
               </motion.div>
-              <div className="text-white px-5 relative z-[50] pb-20 -mt-9">
+              <div className="text-white px-5 relative z-[50] pb-20">
                 <motion.div initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ duration: 1, delay: 2 }}>
                   <AnimatedComponent initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ duration: 1 }}>
                     <div className="text-center mt-5 bg-[#d6b064] w-max px-4 py-1 rounded-full  text-sm text-[#fff] items-center flex mx-auto justify-center ">
@@ -182,7 +182,7 @@ const HalamanUtama: React.FC<HalamanUtamaProps> = ({ className }) => {
             <div className="w-full text-white text-center mt-4">
               <AnimatedComponent initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ duration: 1 }}>
                 <div className="px-14 pt-10">
-                  <Image src={afni} alt="" className=" relative rounded-t-full border-2 border-[#d6b064] mx-auto w-2/3"></Image>
+                  <Image src={afni} alt="" className=" relative rounded-xl  mx-auto w-2/3"></Image>
                 </div>
               </AnimatedComponent>
               <AnimatedComponent initial={{ y: 100, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 1 }}>
@@ -239,7 +239,7 @@ const HalamanUtama: React.FC<HalamanUtamaProps> = ({ className }) => {
             <div className="w-full text-white text-center mt-4">
               <AnimatedComponent initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ duration: 1 }}>
                 <div className="px-14 pt-10">
-                  <Image src={galang} alt="" className=" relative rounded-t-full border-2 border-[#d6b064] mx-auto w-2/3"></Image>
+                  <Image src={galang} alt="" className=" relative rounded-xl  mx-auto w-2/3"></Image>
                 </div>
               </AnimatedComponent>
               <AnimatedComponent initial={{ y: 100, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 1 }}>
@@ -321,7 +321,7 @@ const HalamanUtama: React.FC<HalamanUtamaProps> = ({ className }) => {
                   <div className=" relative z-100 ">
                     <div className="text-4xl font-custom mb-5">Akad Nikah</div>
                     <div>Sabtu, 19 April 2025</div>
-                    <div className="">Pukul 09.00 WIB</div>
+                    <div className="">Pukul 08.00 WIB</div>
                     <div className="font-bold mt-5">Gedung Serbaguna Komplek PP. PUPR Pengairan Bekasi</div>
                     <div className="mt-5">
                       <a className="pl-2 pr-4 py-2 text-sm shadow-lg flex  border-2 border-[#d6b064] items-center w-max mx-auto rounded-full hover:scale-110 transition-all" href="https://maps.app.goo.gl/FJ6GJ2NZstnXrWrn6" target="_blank">
@@ -356,7 +356,7 @@ const HalamanUtama: React.FC<HalamanUtamaProps> = ({ className }) => {
                     <div className="text-4xl font-custom mb-5">Resepsi</div>
                     <div className="">
                       <div>Sabtu, 19 April 2025</div>
-                      <div className="">Pukul 11.00 - 15.00 WIB</div>
+                      <div className="">Pukul 11.00 - 14.00 WIB</div>
                     </div>
                     <div className="font-bold mt-5">Gedung Serbaguna Komplek PP. PUPR Pengairan Bekasi</div>
                     <div className="mt-5">
