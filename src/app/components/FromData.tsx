@@ -18,6 +18,7 @@ export default function Home() {
   const [showNotification, setShowNotification] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
   const [showScrollButton, setShowScrollButton] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
     fetchData();
@@ -31,6 +32,7 @@ export default function Home() {
 
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
+    setIsLoading(true); // Tombol berubah jadi loading
     const res = await fetch("/api/submit", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -40,8 +42,13 @@ export default function Home() {
     if (res.ok) {
       setFormData({ name: "", comment: "", attendance: "" });
       setShowNotification(true);
-      setTimeout(() => setShowNotification(false), 3000);
+      setTimeout(() => {
+        setShowNotification(false);
+        setIsLoading(false); // Kembalikan tombol ke semula setelah notif hilang
+      }, 3000);
       fetchData();
+    } else {
+      setIsLoading(false); // Pastikan tombol kembali jika gagal
     }
   };
 
@@ -113,8 +120,12 @@ export default function Home() {
             </svg>
           </div>
         </div>
-        <button className="py-2 px-6 bg-[#d6b064] w-full mt-4   rounded-md text-white font-semibold" type="submit">
-          Kirim Ucapan
+        <button
+          className="py-2 px-6 bg-[#d6b064] w-full mt-4 rounded-md text-white font-semibold"
+          type="submit"
+          disabled={isLoading} // Disable saat loading
+        >
+          {isLoading ? "Sedang mengirim..." : "Kirim Ucapan"}
         </button>
       </form>
       {showNotification && <div className="absolute top-5 left-1/2 transform -translate-x-1/2 bg-green-500 text-white px-4 py-2 rounded-md shadow-md">✅ Ucapan telah dikirim!</div>}
